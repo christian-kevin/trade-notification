@@ -7,7 +7,7 @@ import NotifApp from './app';
 
 const store = configureStore(initialState);
 
-class MyApp extends Component {
+export default class tradeNotif extends Component {
     render() {
         return (
             <Provider store={store}>
@@ -18,4 +18,3 @@ class MyApp extends Component {
 }
 
 export { store };
-export default MyApp;

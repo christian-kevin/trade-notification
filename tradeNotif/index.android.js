@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import NotifApp from './app/index';
+import tradeNotif from './app';
 
-AppRegistry.registerComponent('NotifApp', () => NotifApp);
+AppRegistry.registerComponent('tradeNotif', () => tradeNotif);

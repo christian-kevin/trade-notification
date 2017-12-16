@@ -4,7 +4,8 @@ import { StackNavigator, TabNavigator, TabBarBottom, NavigationActions } from 'r
 import { Qicon, BackButton } from '../component';
 import { SCREEN_WIDTH } from '../core/constant';
 import {
-  Login
+  Login,
+  Home,
 } from '../screen';
 
 // TODO: configure deep linking for iOS
@@ -52,17 +53,15 @@ const tabNavigatorConfig = {
  * When changing path of a screen, double check that it matches with AndroidManifest.xml!
  */
 const HomeNavigator = StackNavigator({
-  Login: {
-    screen: Login,
-    path: 'user/login',
-    navigationOptions: stackNavigatorConfig.navigationOptions,
-  },
+    Home: {
+        screen: Home,
+        navigationOptions: stackNavigatorConfig.navigationOptions,
+    },
 });
 
 const AccountNavigator = StackNavigator({
   Login: {
     screen: Login,
-    path: 'user/login',
     navigationOptions: stackNavigatorConfig.navigationOptions,
   },
 });

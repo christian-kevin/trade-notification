@@ -17,3 +17,57 @@ export const NORMAL_FONT_SIZE = 14;
 export const BIG_FONT_SIZE = 16;
 export const REM_UNIT = SCREEN_WIDTH > SCREEN_WIDTH_NORMAL_LIMIT ? BIG_FONT_SIZE : NORMAL_FONT_SIZE;
 // endregion
+
+export const priceArray = [
+    {
+        id: 0,
+        url: 'btc_idr',
+        unit: 'btc',
+    },
+    {
+        id: 1,
+        url: 'bch_idr',
+        unit: 'bch',
+    },
+    {
+        id: 2,
+        url: 'btg_idr',
+        unit: 'btg',
+    },
+    {
+        id: 3,
+        url: 'eth_idr',
+        unit: 'eth',
+    },
+    {
+        id: 4,
+        url: 'etc_idr',
+        unit: 'etc',
+    },
+    {
+        id: 5,
+        url: 'ltc_idr',
+        unit: 'ltc',
+    },
+    {
+        id: 6,
+        url: 'nxt_idr',
+        unit: 'nxt',
+    },
+    {
+        id: 7,
+        url: 'waves_idr',
+        unit: 'waves',
+    },
+    {
+        id: 8,
+        url: 'xlm_idr',
+        unit: 'xlm',
+    },
+    {
+        id: 9,
+        url: 'xrp_idr',
+        unit: 'xrp',
+    },
+
+]
