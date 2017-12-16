@@ -1,8 +1,5 @@
 import { API } from '../../core/global';
 import { fetchGet } from '../../core/util';
-import { forEach } from 'lodash';
-import { priceArray } from '../../core/constant';
-import { store } from '../../index';
 
 export const GET_PRICE_LIST = 'GET_PRICE_LIST';
 export const GET_PRICE_LIST_SUCCESS = 'GET_PRICE_LIST_SUCCESS';
@@ -29,21 +26,16 @@ export function getPriceListFailure(url, error) {
     }
 }
 
-export function populateList() {
-        setInterval(() => forEach(priceArray, unit => {
-            if (!store.getState().priceList.loading[unit.url]) {
-                getPrice(unit.url);
-            }
-        }), 3000);
-}
-
 export function getPrice(url) {
     return (dispatch) => {
         dispatch(getPriceList(url));
-        console.log(`${API.PRICE_LIST}${url}/ticker`);
         return fetchGet(`${API.PRICE_LIST}${url}/ticker`)
             .then((responseJson) => {
-                dispatch(getPriceListSuccess(url, responseJson))
+                if (responseJson.error) {
+                    throw responseJson.error;
+                } else {
+                    dispatch(getPriceListSuccess(url, responseJson));
+                }
             })
             .catch((err) => {
                 dispatch(getPriceListFailure(url, err))

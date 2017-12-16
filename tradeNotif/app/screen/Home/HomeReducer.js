@@ -8,7 +8,6 @@ import { parseAPIErrorMessage } from '../../core/util';
 
 export default function reducer(state = priceListState, action) {
     const { payload } = action;
-    console.log(action);
     switch (action.type) {
         case GET_PRICE_LIST: {
             return Object.assign({}, state, {
@@ -20,7 +19,7 @@ export default function reducer(state = priceListState, action) {
         case GET_PRICE_LIST_SUCCESS: {
             return Object.assign({}, state, {
                 data: Object.assign({}, state.data, {
-                    [payload.url]: payload.data,
+                    [payload.url]: payload.data.ticker,
                 }),
                 loading: Object.assign({}, state.loading, {
                     [payload.url]: false,

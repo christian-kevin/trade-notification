@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2fca734-7c54-4c1a-8175-ca11feb83172" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/app.js" afterPath="$PROJECT_DIR$/tradeNotif/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/core/api.js" afterPath="$PROJECT_DIR$/tradeNotif/app/core/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/core/constant.js" afterPath="$PROJECT_DIR$/tradeNotif/app/core/constant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/core/initialState.js" afterPath="$PROJECT_DIR$/tradeNotif/app/core/initialState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/core/rootReducers.js" afterPath="$PROJECT_DIR$/tradeNotif/app/core/rootReducers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/index.js" afterPath="$PROJECT_DIR$/tradeNotif/app/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/routes/index.js" afterPath="$PROJECT_DIR$/tradeNotif/app/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/screen/index.js" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/index.android.js" afterPath="$PROJECT_DIR$/tradeNotif/index.android.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js" afterPath="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="initialState.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initialState.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/initialState.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="44">
+              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -42,8 +40,8 @@
       <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="269">
+              <caret line="155" column="62" lean-forward="true" selection-start-line="155" selection-start-column="62" selection-end-line="155" selection-end-column="62" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -51,46 +49,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/index.js">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/android/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/util/index.js">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="154" column="58" lean-forward="false" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/app/routes/index.js">
+      <file leaf-file-name="BUCK" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/BUCK">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="939">
-              <caret line="64" column="62" lean-forward="true" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/app/app.js">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_color.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/style/_color.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +112,8 @@
       <file leaf-file-name="HomeAction.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="315">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -107,35 +121,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+            <state relative-caret-position="315">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="e#0#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.android.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tradeNotif/index.android.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +151,9 @@
       <find>aut</find>
       <find>match</find>
       <find>fetch</find>
+      <find>console.lo</find>
+      <find>tabNavigatorConfig</find>
+      <find>can</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,22 +175,23 @@
         <option value="$PROJECT_DIR$/tradeNotif/app/screen/Account/AuthenticationAction.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/style/_color.js" />
         <option value="$PROJECT_DIR$/tradeNotif/package.json" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/core/constant.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/index.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/screen/index.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/rootReducers.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/initialState.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/store.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/index.js" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/routes/index.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/app.js" />
         <option value="$PROJECT_DIR$/tradeNotif/index.android.js" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/util/index.js" />
-        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js" />
         <option value="$PROJECT_DIR$/tradeNotif/app/core/api.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/core/constant.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/routes/index.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js" />
+        <option value="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -237,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,6 +250,62 @@
               <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
               <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="mipmap-hdpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trade-notification" type="462c0819:PsiDirectoryNode" />
+              <item name="tradeNotif" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trade-notification" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +378,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,23 +389,23 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.standard" value="/usr/local/lib/node_modules/eslint" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Mobile" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/api.js&#10;pack&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/package.json&#10;stor&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/store.js&#10;initi&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/initialState.js&#10;packa&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/package.json&#10;combin&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/node_modules/redux/es/combineReducers.js&#10;_color&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/style/_color.js" />
+    <property name="SearchEverywhereHistoryKey" value="_col&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/style/_color.js&#10;login&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/screen/Account/Login/Login.js&#10;con&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/constant.js&#10;api&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/api.js&#10;pack&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/package.json&#10;stor&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/store.js&#10;initi&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/initialState.js&#10;packa&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/package.json&#10;combin&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/node_modules/redux/es/combineReducers.js&#10;_color&#9;FILE&#9;file:///home/kevin/trade-notification/tradeNotif/app/core/style/_color.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-xhdpi" />
+      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-mdpi" />
+      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/res/mipmap-hdpi" />
+      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/assets/fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tradeNotif/app/screen/Account" />
       <recent name="$PROJECT_DIR$/tradeNotif/app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tradeNotif/android/app/src/main/assets/fonts" />
-      <recent name="$PROJECT_DIR$/tradeNotif/app/screen/Login" />
-      <recent name="$PROJECT_DIR$/tradeNotif/app/component" />
-      <recent name="$PROJECT_DIR$/tradeNotif/app/screen" />
-      <recent name="$PROJECT_DIR$/tradeNotif" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,18 +435,18 @@
       <updated>1513403855808</updated>
       <workItem from="1513403857196" duration="10893000" />
       <workItem from="1513415145273" duration="9911000" />
-      <workItem from="1513425988669" duration="2735000" />
+      <workItem from="1513425988669" duration="6756000" />
+      <workItem from="1513432984583" duration="4952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23539000" />
+    <option name="totallyTimeSpent" value="32512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1037" extended-state="6" />
-    <editor active="true" />
+    <frame x="160" y="122" width="1922" height="1037" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -426,29 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tradeNotif/android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/java/com/tradenotif/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/component/Icon/Icon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2190">
@@ -486,14 +515,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tradeNotif/.eslintrc.json" />
-    <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/constant/areas.js" />
     <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/QAnalytics.js" />
     <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/style/_typography.js">
@@ -582,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,24 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/style/_color.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/constant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -680,9 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +704,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,51 +724,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="65" lean-forward="true" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tradeNotif/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="939">
-          <caret line="64" column="62" lean-forward="true" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/util/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="154" column="58" lean-forward="false" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,20 +742,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/util/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="144" column="47" lean-forward="false" selection-start-line="144" selection-start-column="47" selection-end-line="144" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Account/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="94" column="25" lean-forward="false" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/initialState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/HomeAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/style/_color.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tradeNotif/app/screen/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="269">
+          <caret line="155" column="62" lean-forward="true" selection-start-line="155" selection-start-column="62" selection-end-line="155" selection-end-column="62" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tradeNotif/app/core/initialState.js">
+    <entry file="file://$PROJECT_DIR$/tradeNotif/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/BUCK">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tradeNotif/android/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>

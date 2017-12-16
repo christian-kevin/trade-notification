@@ -31,23 +31,6 @@ const stackNavigatorConfig = {
   }),
 };
 
-const tabNavigatorConfig = {
-  tabBarOnPress: (scene, jumpToIndex, navigation) => {
-    if (scene.focused) {
-      if (scene.route.index !== 0) {
-        navigation.dispatch(
-          NavigationActions.reset({
-            index: 0,
-            actions: [NavigationActions.navigate({ routeName: scene.route.routes[0].routeName })],
-          }),
-        );
-      }
-    } else {
-      jumpToIndex(scene.index);
-    }
-  },
-};
-
 /**
  * !!! IMPORTANT NOTE !!!
  * When changing path of a screen, double check that it matches with AndroidManifest.xml!
@@ -75,8 +58,6 @@ const MainScreenNavigator = TabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Qicon name="home" style={[styles.tabBarIcon, { color: tintColor }]} />
         ),
-        tabBarOnPress: (scene, jumpToIndex) =>
-          tabNavigatorConfig.tabBarOnPress(scene, jumpToIndex, navigation),
       }),
     },
     Account: {
@@ -86,8 +67,6 @@ const MainScreenNavigator = TabNavigator(
         tabBarIcon: ({ tintColor }) => (
           <Qicon name="user" style={[styles.tabBarIcon, { color: tintColor }]} />
         ),
-        tabBarOnPress: (scene, jumpToIndex) =>
-          tabNavigatorConfig.tabBarOnPress(scene, jumpToIndex, navigation),
       }),
     },
   },
@@ -96,7 +75,7 @@ const MainScreenNavigator = TabNavigator(
     tabBarPosition: 'bottom',
     swipeEnabled: false,
     tabBarOptions: {
-      activeTintColor: '#00b4ac',
+      activeTintColor: '#1c4f69',
       inactiveTintColor: '#666',
       labelStyle: {
         fontFamily: 'VarelaRound-Regular',
@@ -112,6 +91,7 @@ const MainScreenNavigator = TabNavigator(
     },
   },
 );
+let canNavigate = true;
 
 /** this function is to add logic on root Navigator before firing navigation action
  * @param navigator

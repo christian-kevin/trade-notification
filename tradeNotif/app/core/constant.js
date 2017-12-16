@@ -61,8 +61,8 @@ export const priceArray = [
     },
     {
         id: 8,
-        url: 'xlm_idr',
-        unit: 'xlm',
+        url: 'str_idr',
+        unit: 'str',
     },
     {
         id: 9,

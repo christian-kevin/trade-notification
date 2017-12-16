@@ -114,7 +114,6 @@ class Login extends Component {
             <Text style={styles.headerTopStyle}>LOGIN</Text>
           </View>
       ),
-      tabBarVisible: false,
     };
   };
 
