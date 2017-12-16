@@ -1,54 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
-import {
-  Platform,
-  Text,
-  View
-} from 'react-native';
+import App from './routes';
 import { Style } from './core/global';
 
 EStyleSheet.build(Style);
 
-const styles = EStyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '$primaryColor',
-        marginBottom: 5,
-    },
-});
+const mainApp = () => (
+    <App
+        onNavigationStateChange={(prevState, newState, action) => {
+            // Might need to make this more selective and efficient in the future
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menuuu',
-});
+            if (process.env.NODE_ENV === 'development') {
+                /* eslint-disable no-console */
+                if (console.group) {
+                    console.group('Navigation Dispatch: ');
+                    console.log('Prev State: ', prevState);
+                    console.log('Action: ', action);
+                    console.log('New State: ', newState);
+                    console.groupEnd();
+                } else {
+                    console.log('Navigation Dispatch: ', {
+                        prevState,
+                        action,
+                        newState,
+                    });
+                }
+                /* eslint-enable no-console */
+            }
+        }}
+    />
+);
 
-export default class NotifApp extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-      </View>
-    );
-  }
-}
+export default mainApp;

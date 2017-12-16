@@ -1,13 +1,10 @@
 /* @flow */
 import { Share, Alert } from 'react-native';
 import resolveAssetSource from 'resolveAssetSource';
-import Analytics from 'react-native-firebase-analytics';
 import moment from 'moment';
 import { memoize, reduce, forEach, range, snakeCase } from 'lodash';
 import { SCREEN_WIDTH, REM_UNIT, NORMAL_FONT_SIZE } from '../constant';
 import { store } from '../../index';
-import { revoke } from '../../screen/Account/AuthenticationAction';
-import { cancelInvoice } from '../../screen/Payment/PaymentAction';
 
 export const isNumeric = (n: string): boolean => !isNaN(parseFloat(n)) && isFinite(n);
 
