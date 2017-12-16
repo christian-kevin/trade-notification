@@ -1,0 +1,18 @@
+export default {
+  $green: '#5cb85c',
+  $fadedOrange: '#f0ad4e',
+  $red: '#d9534f',
+  $redPromo: '#f9534d',
+  $teal: '#5bc0de',
+  $turquoise: '#00b4ac',
+  $brownishGrey: '#666666',
+  $black: '#333333',
+  $warmGrey: '#999999',
+  $alto: '#dddddd',
+  $lightGrey: '#f4f4f4',
+  $successColor: '$green',
+  $primaryColor: '$turquoise',
+  $warningColor: '$fadedOrange',
+  $errorColor: '$red',
+  $infoColor: '$teal',
+};
